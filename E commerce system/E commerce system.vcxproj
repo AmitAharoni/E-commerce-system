@@ -123,6 +123,30 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Address.cpp" />
+    <ClCompile Include="Buyer.cpp" />
+    <ClCompile Include="BuyerAndSeller.cpp" />
+    <ClCompile Include="Cart.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="Feedback.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Manager.cpp" />
+    <ClCompile Include="Product.cpp" />
+    <ClCompile Include="Seller.cpp" />
+    <ClCompile Include="User.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Address.h" />
+    <ClInclude Include="Array.h" />
+    <ClInclude Include="Buyer.h" />
+    <ClInclude Include="BuyerAndSeller.h" />
+    <ClInclude Include="Cart.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="Feedback.h" />
+    <ClInclude Include="Manager.h" />
+    <ClInclude Include="Product.h" />
+    <ClInclude Include="Seller.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
